@@ -1,8 +1,4 @@
-// const getUserNames = users => {
-//  const names = users.map(result => result.name)
-// return names;
 
-// }
 
 const getUserNames = users => users.map(result => result.name);
 

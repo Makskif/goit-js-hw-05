@@ -1,25 +1,4 @@
-// const getTotalBalanceByGender = (users, gender) => {
-//     return users.filter((item, index, array) => {
-//         usersGender = item.gender[0];
-//         return usersGender.includes(gender[0])
-//     })
-// }
 
-// // .map(item.reduce((previousValue, number) => {
-// //         console.log(previousValue);
-// //         console.log(previousValue + number);
-// //         console.log(item.balance);
-// //         return previousValue + number;
-      
-// },0))
-
-// const getTotalBalanceByGender = (users, gender) => users.filter((item) =>
-//     (usersGender = item.gender[0]) && (usersGender.includes(gender[0])))
-//     .map(item => item.balance).reduce((previousValue, number) => {
-      
-//         return previousValue + number;
-      
-// },0)
 
 const getTotalBalanceByGender = (users, gender) => users.filter((item) =>
     (usersGender = item.gender[0]) && (usersGender.includes(gender[0])))
