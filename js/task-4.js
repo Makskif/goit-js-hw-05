@@ -3,8 +3,7 @@
 //     .map(item => item.balance).reduce((previousValue, number) => previousValue + number ,0)
 
 const getTotalBalanceByGender = (users, gender) => users.filter((item) =>
-    (item.gender).startsWith(gender))
-    .flatMap(item => item.balance).reduce((previousValue, number) => previousValue + number ,0)
+    (item.gender).startsWith(gender)).reduce((previousValue, item) => previousValue + item.balance ,0)
 
     const clients = [
 	{
