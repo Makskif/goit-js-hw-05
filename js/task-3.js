@@ -3,9 +3,6 @@
     (friendB.friends).length -  (friendA.friends).length)
   
 
-
-
-
 console.log(
   sortByDescendingFriendCount([
     {
